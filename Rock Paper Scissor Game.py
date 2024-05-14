@@ -30,7 +30,7 @@ scissors = '''
 #Write your code below this line 
 import random
 user=int(input("What do you choose? Type 0 for Rock,1 forPaper or 2 for Scissors."))
-#computer=random.randint(0,2)
+computer=random.randint(0,2)
 computer=0
 list=[rock,paper,scissors]
 print(list[user])
